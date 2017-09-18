@@ -2,12 +2,12 @@
 #include <conio.h>
 
 main(){
-	int X,Y,hasil = 0;
+   int X,Y,hasil = 0;
    int pilih;
    int i;
    home:
    clrscr();
-	printf("Tugas Metode Numerik\n");
+   printf("Tugas Metode Numerik\n");
    printf("     Aritmatika\n");
    printf("1. Menghitung X + Y\n");
    printf("2. Menghitung X - Y\n");
@@ -19,24 +19,24 @@ main(){
    if(pilih==1){
       goto tambah;
    }
-		 else if(pilih==2){
+      else if(pilih==2){
        	goto kurang;
-       }
+      }
          else if(pilih==3){
-         	goto kali;
+             goto kali;
          }
-         	else if(pilih==4){
-         		goto pangkat;
-         	}
+            else if(pilih==4){
+               goto pangkat;
+            }
                else if(pilih==5){
-               	goto fungsi;
-            	}
-               else if (pilih==6){
-               	goto exit;
+               	  goto fungsi;
                }
-               	else{
-            			printf("inputan salah !");
-               	}
+                  else if (pilih==6){
+               	     goto exit;
+                  }
+               	      else{
+            		printf("inputan salah !");
+               	      }
    getch();
    tambah:
    printf("Masukan Nilai x : ");scanf("%d",&X);
@@ -73,7 +73,7 @@ main(){
    printf("Masukan Nilai x :");scanf("%d",&X);
    printf("Masukan Nilai y :");scanf("%d",&Y);
    for(i=X;i<=Y;i++){
-    	hasil = (2*(i*i))-((3*i)+1);
+      hasil = (2*(i*i))-((3*i)+1);
       printf("hasil : %d\n",hasil);
    }
    getch();
