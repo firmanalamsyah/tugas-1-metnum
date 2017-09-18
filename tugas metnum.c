@@ -73,7 +73,7 @@ main(){
    printf("Masukan Nilai x :");scanf("%d",&X);
    printf("Masukan Nilai y :");scanf("%d",&Y);
    for(i=X;i<=Y;i++){
-    	hasil = (2*i*i)-((3*i)+1);
+    	hasil = (2*(i*i))-((3*i)+1);
       printf("hasil : %d\n",hasil);
    }
    getch();
